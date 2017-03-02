@@ -1,0 +1,20 @@
+{
+  "name": "sky",
+  "version": "1.0.0",
+  "description": "just a test",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "packager": "electron-packager ./app sky --Windows --out ./OutApp --version 1.0.0 --overwrite --ignore=node_modules/electron-* --ignore=node_modules/.bin --ignore=.git --ignore=OutApp --prune"
+  },
+  "repository": "",
+  "keywords": [
+    "Electron",
+    "demo"
+  ],
+  "author": "muge",
+  "devDependencies": {
+    "electron": "*",
+    "electron-packager": "^8.5.2"
+  }
+}
